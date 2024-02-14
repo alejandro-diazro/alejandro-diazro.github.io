@@ -47,9 +47,15 @@ a{
 
 .welcome h3{
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0;
     font-size: 1.4rem;
+}
+
+.welcome p a{
+    font-size: 1.6rem;
+    color: var(--color-level3);
+    text-decoration: none;
 }
 
 .menu{
@@ -68,17 +74,35 @@ a{
     color: var(--color-level3);
 }
 
-.projects{
+.section{
     padding: 2rem;
 }
 
-.projects h2{
+.section h2{
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 0;
 }
-.projects p{
+.section p{
     font-size: 1.3rem;
+}
+
+.negative{
+    background-color: var(--color-level3);
+    color: var(--color-level4);
+}
+
+.section h5{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.section h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.section h6{
+    font-size: 1.6rem;
+    margin: 0;
 }
 
 .list{
@@ -148,4 +172,21 @@ https://codepen.io/2xsamurai/pen/WwmjKQ
     0% { opacity: 0; }
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
+}
+
+
+::-webkit-scrollbar-track
+{
+	background-color: var(--color-level4);
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: var(--color-level4);
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: var(--color-level2);
 }
