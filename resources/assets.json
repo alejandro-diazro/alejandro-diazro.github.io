@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Comming Soon",
+        "labels": ["2D"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel mi fermentum, pellentesque odio id, accumsan eros.",
+        "link": "#",
+        "image": "../resources/no-picture.png"
+    }
+]
