@@ -31,7 +31,7 @@
         "title": "Web 2.0 IVAO Spain",
         "labels": ["Web"],
         "description": "The new websites/systems of the Spanish division of the IVAO organisation, made with NestJS and React.",
-        "link": "#",
+        "link": "ivao",
         "image": "../resources/ivao.png"
     }
 ]
