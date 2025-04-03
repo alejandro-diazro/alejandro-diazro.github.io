@@ -1,0 +1,138 @@
+:root {
+  --background-primary: #fff; /* Fondo principal */
+  --background-secondary: #f5f5f5; /* Fondo secundario (como el body) */
+  --background-tertiary: #f9f9f9; /* Fondo terciario (como los elementos li) */
+  --text-primary: #333; /* Color de texto principal */
+  --text-secondary: #ddd; /* Color de texto secundario (usado en modo oscuro) */
+  --border-primary: #ddd; /* Color de bordes principal */
+  --border-secondary: #555; /* Color de bordes secundario (usado en modo oscuro) */
+  --header-background: #f2f2f2; /* Fondo de los encabezados (como th) */
+  --button-disabled: #cccccc; /* Color de botones deshabilitados */
+  --link-color: #2196f3; /* Color de enlaces */
+  --success: #4caf50;
+  --success-hover: #45a049;
+  --danger: #f44336;
+  --danger-hover: #d32f2f;
+  --warning: #ff9800;
+  --warning-hover: #e68900;
+  --info: #2196f3;
+  --info-hover: #1976d2;
+}
+
+body.light {
+  --background-primary: #fff;
+  --background-secondary: #f5f5f5;
+  --background-tertiary: #f9f9f9;
+  --text-primary: #333;
+  --border-primary: #ddd;
+  --header-background: #f2f2f2;
+}
+
+/* Modo oscuro: sobrescribir variables */
+body.dark {
+  --background-primary: #2a2a2a;
+  --background-secondary: #1a1a1a;
+  --background-tertiary: #3a3a3a;
+  --text-primary: #ddd;
+  --border-primary: #555;
+  --header-background: #444;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: var(--text-primary);
+  color: var(--background-tertiary);
+}
+
+.btn:hover {
+  background-color: var(--border-secondary);
+}
+
+.accept {
+  background-color: var(--success);
+  color: white;
+
+}
+
+.accept:hover {
+  background-color: var(--success-hover);
+}
+
+.reject {
+  background-color: var(--danger);
+  color: white;
+}
+
+.reject:hover {
+  background-color: var(--danger-hover);
+}
+
+.warning {
+  background-color: var(--warning);
+  color: white;
+}
+
+.warning:hover {
+  background-color: var(--warning-hover);
+}
+
+.info {
+  background-color: var(--info);
+  color: white;
+
+}
+
+.info:hover {
+  background-color: var(--info-hover);
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+body.dark {
+  background-color: #1a1a1a;
+  color: #ddd;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 15px 20px;
+  background-color: var(--background-primary);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: var(--background-tertiary);
+  transform: translateY(-2px);
+}
+
+a{
+  color: var(--info);
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--info-hover);
+}
