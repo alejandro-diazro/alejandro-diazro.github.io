@@ -109,6 +109,10 @@
     color: var(--text-primary);
 }
 
+.linkforce:hover{
+    color: var(--text-primary);
+}
+
 @media (max-width: 768px) {
     .header-grid {
         grid-template-columns: 1fr;

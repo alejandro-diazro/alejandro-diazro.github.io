@@ -33,7 +33,7 @@ const cards = [
     },
     {
         title: 'Resume (CV)',
-        link: 'CV.pdf',
+        link: 'https://alejandro-diazro.github.io/CV.pdf',
         size: 'small',
     },
     {

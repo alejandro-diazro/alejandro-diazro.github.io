@@ -14,56 +14,51 @@ import ElisiumEngineDetail from "./Projects/ElisiumEngineDetail";
 import KeyboardDetail from "./Projects/KeyboardDetail";
 import ChronosDetail from "./Projects/ChronosDetail";
 import IvaoDetail from "./Projects/IvaoDetail";
+import ArcheryDetail from "./Projects/ArcheryDetail";
+import HiCrewDetail from "./Projects/HiCrewDetail";
 
 const projects = [
     {
         title: 'Shelley Manor',
-        link: 'https://store.steampowered.com/app/2999270/Shelley_Manor/',
         image: shelleyManorItem,
         size: 'medium',
         detailComponent: ShelleyManorDetail,
     },
     {
         title: 'Elysium Engine',
-        link: 'https://store.steampowered.com/app/2999270/Shelley_Manor/',
         image: elysiumItem,
         size: 'small',
         detailComponent: ElisiumEngineDetail,
     },
     {
         title: 'Keyboard Party',
-        link: 'https://store.steampowered.com/app/2999270/Shelley_Manor/',
         image: keyboardItem,
         size: 'small',
         detailComponent: KeyboardDetail,
     },
     {
         title: 'The Son of Chronos',
-        link: 'https://store.steampowered.com/app/2999270/Shelley_Manor/',
         image: chronosItem,
         size: 'medium',
         detailComponent: ChronosDetail,
     },
     {
         title: 'Archery Scorer',
-        link: 'https://store.steampowered.com/app/2999270/Shelley_Manor/',
         image: archeryItem,
         size: 'small',
-        detailComponent: ShelleyManorDetail,
+        detailComponent: ArcheryDetail,
     },
     {
         title: 'Web 2.0 IVAO Spain',
-        link: 'https://store.steampowered.com/app/2999270/Shelley_Manor/',
         image: ivaoItem,
         size: 'small',
         detailComponent: IvaoDetail,
     },
     {
         title: 'HiCrew!',
-        link: 'https://store.steampowered.com/app/2999270/Shelley_Manor/',
         image: hicrewItem,
         size: 'small',
-        detailComponent: ShelleyManorDetail,
+        detailComponent: HiCrewDetail,
     },
 ];
 

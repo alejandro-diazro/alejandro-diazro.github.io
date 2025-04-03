@@ -15,7 +15,7 @@ const MainBanner = ({ title, description, showButton, buttonText = "Go to Home",
                             {buttonText}
                         </button>
                     ) : (
-                        <Link to="/" className="btn info">
+                        <Link to="/" className="btn info linkforce">
                             {buttonText}
                         </Link>
                     )
