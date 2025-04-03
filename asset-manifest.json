@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.923f6572.css",
+    "main.js": "/static/js/main.8fac3cbc.js",
+    "static/media/shelley-controller.gif": "/static/media/shelley-controller.a6af2281fbe6a941dd4f.gif",
+    "static/media/shelley-map.gif": "/static/media/shelley-map.dd2ac25af9b733a97edb.gif",
+    "static/media/shelley-note.gif": "/static/media/shelley-note.1a39a83cf40e0aef7fab.gif",
+    "static/media/chronos.png": "/static/media/chronos.1af97335e9d2bd7fe34f.png",
+    "static/media/elysium.png": "/static/media/elysium.0679b29f6f2818570e97.png",
+    "static/media/hicrew.png": "/static/media/hicrew.a38528c39b7f70559f88.png",
+    "static/media/keyboard.png": "/static/media/keyboard.177b037a738d1add7fbb.png",
+    "static/media/ivao.png": "/static/media/ivao.546989a5877c9b0bf8ac.png",
+    "static/media/test.jpg": "/static/media/test.5f2a0c390c35ea3d49bf.jpg",
+    "static/media/shelleyManor.jpg": "/static/media/shelleyManor.463433cd487629a7ae5e.jpg",
+    "static/media/archeryscorer.png": "/static/media/archeryscorer.3eecd8ede1590ca659ab.png",
+    "index.html": "/index.html",
+    "main.923f6572.css.map": "/static/css/main.923f6572.css.map",
+    "main.8fac3cbc.js.map": "/static/js/main.8fac3cbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.923f6572.css",
+    "static/js/main.8fac3cbc.js"
+  ]
+}
