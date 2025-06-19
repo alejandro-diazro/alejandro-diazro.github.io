@@ -2,6 +2,7 @@ import React from 'react';
 import profileItem from '../../assets/test.jpg';
 import { Link } from 'react-router-dom';
 import shelleyManorItem from '../../assets/shelleyManor.jpg';
+import keyboardItem from '../../assets/keyboard-logo.png';
 import './header.css'
 import MainBanner from "./MainBanner";
 
@@ -32,9 +33,22 @@ const cards = [
         size: 'small',
     },
     {
-        title: 'Resume (CV)',
-        link: 'https://alejandro-diazro.github.io/CV.pdf',
+        title: 'HiCrew!',
+        description: 'Virtual airline management system website',
+        link: 'https://alejandro-diazro.github.io/hicrew/',
         size: 'small',
+    },
+    {
+        title: 'GitHub',
+        link: 'https://github.com/alejandro-diazro',
+        size: 'small',
+    },
+    {
+        title: 'My next game',
+        description: 'Add it to the whitelist',
+        link: 'https://store.steampowered.com/app/3754830/Keyboard_Party/',
+        image: keyboardItem,
+        size: 'large',
     },
     {
         title: 'X',
@@ -47,10 +61,11 @@ const cards = [
         size: 'small',
     },
     {
-        title: 'GitHub',
-        link: 'https://github.com/alejandro-diazro',
-        size: 'small',
+        title: 'Resume (CV)',
+        link: 'https://alejandro-diazro.github.io/CV.pdf',
+        size: 'medium',
     },
+
 ];
 
 const Header = () => {
@@ -62,7 +77,7 @@ const Header = () => {
         <>
             <MainBanner
                 title="Hi!"
-                description="I am Alejandro, I am a programmer and I am probably sleeping or programming right now."
+                description="I am Alejandro, a programmer, and at this moment I’m probably sleeping, programming, or studying law."
                 showButton={false}
             />
                 <div className="header-grid">

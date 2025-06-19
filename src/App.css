@@ -8,15 +8,15 @@
   --border-secondary: #555; /* Color de bordes secundario (usado en modo oscuro) */
   --header-background: #f2f2f2; /* Fondo de los encabezados (como th) */
   --button-disabled: #cccccc; /* Color de botones deshabilitados */
-  --link-color: #2196f3; /* Color de enlaces */
+  --link-color: #588fe5; /* Color de enlaces */
   --success: #4caf50;
   --success-hover: #45a049;
   --danger: #f44336;
   --danger-hover: #d32f2f;
   --warning: #ff9800;
   --warning-hover: #e68900;
-  --info: #2196f3;
-  --info-hover: #1976d2;
+  --info: #588fe5;
+  --info-hover: #173056;
 }
 
 body.light {
@@ -88,6 +88,7 @@ body.dark {
 
 .info:hover {
   background-color: var(--info-hover);
+  color: white;
 }
 
 .App {

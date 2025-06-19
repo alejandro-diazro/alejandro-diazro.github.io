@@ -106,7 +106,7 @@
 
 .card-link:hover {
     background-color: var(--info-hover);
-    color: var(--text-primary);
+    color: white;
 }
 
 .linkforce:hover{
