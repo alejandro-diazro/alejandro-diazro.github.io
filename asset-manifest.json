@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fd46364c.css",
-    "main.js": "/static/js/main.d1049f85.js",
+    "main.js": "/static/js/main.0ff029cd.js",
     "static/media/shelley-controller.gif": "/static/media/shelley-controller.a6af2281fbe6a941dd4f.gif",
     "static/media/shelley-map.gif": "/static/media/shelley-map.dd2ac25af9b733a97edb.gif",
     "static/media/shelley-note.gif": "/static/media/shelley-note.1a39a83cf40e0aef7fab.gif",
@@ -21,10 +21,10 @@
     "static/media/archeryscorer.png": "/static/media/archeryscorer.3eecd8ede1590ca659ab.png",
     "index.html": "/index.html",
     "main.fd46364c.css.map": "/static/css/main.fd46364c.css.map",
-    "main.d1049f85.js.map": "/static/js/main.d1049f85.js.map"
+    "main.0ff029cd.js.map": "/static/js/main.0ff029cd.js.map"
   },
   "entrypoints": [
     "static/css/main.fd46364c.css",
-    "static/js/main.d1049f85.js"
+    "static/js/main.0ff029cd.js"
   ]
 }
