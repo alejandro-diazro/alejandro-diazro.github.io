@@ -10,7 +10,7 @@ const Blog = () => {
                 description=""
                 showButton={true}
             />
-            <h1>Working</h1>
+            <h1>Working in progress</h1>
 
         </>
     );
