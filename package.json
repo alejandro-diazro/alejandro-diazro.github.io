@@ -1,7 +1,7 @@
 {
   "name": "diazro",
   "version": "0.1.0",
-  "homepage": "https://alejandro-diazro.github.io",
+  "homepage": "https://diazro.me",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
