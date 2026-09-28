@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd46364c.css",
-    "main.js": "/static/js/main.0ff029cd.js",
+    "main.css": "/static/css/main.bf03eb3b.css",
+    "main.js": "/static/js/main.c69ea2aa.js",
     "static/media/shelley-controller.gif": "/static/media/shelley-controller.a6af2281fbe6a941dd4f.gif",
     "static/media/shelley-map.gif": "/static/media/shelley-map.dd2ac25af9b733a97edb.gif",
     "static/media/shelley-note.gif": "/static/media/shelley-note.1a39a83cf40e0aef7fab.gif",
@@ -19,12 +19,15 @@
     "static/media/Archery3.png": "/static/media/Archery3.505392c147e896526cf4.png",
     "static/media/shelleyManor.jpg": "/static/media/shelleyManor.463433cd487629a7ae5e.jpg",
     "static/media/archeryscorer.png": "/static/media/archeryscorer.3eecd8ede1590ca659ab.png",
+    "static/media/teidoku.png": "/static/media/teidoku.ea82125c776a89f30b68.png",
+    "static/media/teidoku-screenshot.png": "/static/media/teidoku-screenshot.72e2aae9dd1bfc9d73fc.png",
+    "static/media/teidoku-devlog.md": "/static/media/teidoku-devlog.52cbd24c01ce3465aa43.md",
     "index.html": "/index.html",
-    "main.fd46364c.css.map": "/static/css/main.fd46364c.css.map",
-    "main.0ff029cd.js.map": "/static/js/main.0ff029cd.js.map"
+    "main.bf03eb3b.css.map": "/static/css/main.bf03eb3b.css.map",
+    "main.c69ea2aa.js.map": "/static/js/main.c69ea2aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd46364c.css",
-    "static/js/main.0ff029cd.js"
+    "static/css/main.bf03eb3b.css",
+    "static/js/main.c69ea2aa.js"
   ]
 }
