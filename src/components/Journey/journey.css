@@ -1,0 +1,74 @@
+.journey-organisation {
+    text-align: left;
+}
+
+.journey-organisation h2 {
+    margin: 0;
+}
+
+.journey-meta {
+    margin: 2px 0;
+    font-size: 0.95rem;
+    font-weight: 200;
+}
+
+.journey-roles {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0 0 0 20px;
+    border-left: 2px solid var(--info);
+}
+
+.journey-role {
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.journey-role:last-child {
+    padding-bottom: 0;
+}
+
+.journey-role::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -27px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--info);
+}
+
+.journey-role h3 {
+    margin: 0 0 4px;
+}
+
+.journey-highlights {
+    padding-left: 20px;
+}
+
+.journey-highlights li {
+    margin-bottom: 6px;
+}
+
+.journey-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.journey-skills span,
+.journey-badge {
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    background-color: var(--background-tertiary);
+    border: 1px solid var(--border-primary);
+}
+
+.journey-badge {
+    margin-left: 8px;
+    color: white;
+    background-color: var(--info);
+    border-color: var(--info);
+}

@@ -59,3 +59,9 @@
         width: 100%;
     }
 }
+.portfolio iframe.itch-embed {
+    height: 167px;
+    max-width: 552px;
+    display: block;
+    margin: 0 auto;
+}

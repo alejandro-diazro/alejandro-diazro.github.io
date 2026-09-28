@@ -3,6 +3,7 @@ import profileItem from '../../assets/test.jpg';
 import { Link } from 'react-router-dom';
 import shelleyManorItem from '../../assets/shelleyManor.jpg';
 import keyboardItem from '../../assets/keyboard-logo.png';
+import teidokuItem from '../../assets/teidoku.png';
 import './header.css'
 import MainBanner from "./MainBanner";
 
@@ -29,7 +30,7 @@ const cards = [
     {
         title: 'Archery Scorer',
         description: 'Web for archery scoring',
-        link: 'https://alejandro-diazro.github.io/archery-scorer/',
+        link: 'https://score.arquerosdelcentenero.com/',
         size: 'small',
     },
     {
@@ -39,16 +40,23 @@ const cards = [
         size: 'small',
     },
     {
-        title: 'GitHub',
-        link: 'https://github.com/alejandro-diazro',
-        size: 'small',
+        title: 'Teidoku',
+        description: 'Sudoku roguelike, play it free on itch.io',
+        link: 'https://diazro.itch.io/teidoku',
+        image: teidokuItem,
+        size: 'medium',
     },
     {
         title: 'My next game',
         description: 'Add it to the whitelist',
         link: 'https://store.steampowered.com/app/3754830/Keyboard_Party/',
         image: keyboardItem,
-        size: 'large',
+        size: 'small',
+    },
+    {
+        title: 'GitHub',
+        link: 'https://github.com/alejandro-diazro',
+        size: 'small',
     },
     {
         title: 'X',
@@ -63,7 +71,13 @@ const cards = [
     {
         title: 'Resume (CV)',
         link: 'https://alejandro-diazro.github.io/CV.pdf',
-        size: 'medium',
+        size: 'small',
+    },
+    {
+        title: 'My journey',
+        description: 'Where I have worked',
+        link: '/journey',
+        size: 'small',
     },
 
 ];
